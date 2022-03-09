@@ -129,3 +129,29 @@ const Rosie = new Bunny(
 );
 
 console.log(Rosie);
+
+
+//require 
+
+//imported  from myModule file
+//one function
+const { multiply } = require("./myModule");
+console.log(multiply(3242, 34));
+
+//import whole page and inside function with dot notation.
+const myModule = require("./myModule");
+console.log(myModule.subtract(3242, 34));
+
+
+
+const os = require("os");
+const fs = require("fs")
+
+const userDetails = os.userInfo().username;
+ 
+fs.appendFile("oh-hi.text", `Hello ${userDetails}`)
+ if(err){
+     console,log("oops")
+ }
+
+

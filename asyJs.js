@@ -1,3 +1,4 @@
+const _ = require("loadash")
 //example 1
 const whichGreeting = (timeOfDay) => {
   console.log(`good ${timeOfDay}`);
