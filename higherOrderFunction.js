@@ -1,4 +1,6 @@
 const _ = require("loadash")
+
+//A “higher-order function” is a function that accepts functions as parameters and/or returns a function.
 //example 1
 const whichGreeting = (timeOfDay) => {
   console.log(`good ${timeOfDay}`);
@@ -33,6 +35,9 @@ const add1 = (num1) => {
   };
 };
 console.log(add1(2)(3));
+
+
+//example 2 
 
 //activity 1
 
